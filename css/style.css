@@ -40,6 +40,10 @@ body {
     color: #FFFFFF;
 }
 
+.container p {
+    text-align: justify;
+}
+
 .card-container {
     display: flex;
     flex-direction: column;
