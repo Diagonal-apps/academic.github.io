@@ -51,6 +51,8 @@ body {
 }
 
 .card-container h2 {
+    display: flex;
+    align-items: center;
     margin-bottom: 25px;
 }
 
@@ -92,6 +94,14 @@ body {
     justify-content: center;
     padding: 5px;
     border: 5px solid #153843;
+}
+
+.exclusive {
+    padding: 10px;
+    font-size: 14px;
+    margin-right: 10px;
+    background-color: #00b135;
+    color: #FFFFFF;
 }
 
 .footer {
