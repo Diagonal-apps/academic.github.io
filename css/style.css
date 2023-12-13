@@ -11,6 +11,10 @@ body {
     background-color: #181818;
 }
 
+*::selection {
+    background-color: #210055;
+}
+
 .header {
     width: 100vw;
     height: 50px;

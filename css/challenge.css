@@ -29,7 +29,31 @@
     margin-bottom: 15px;
 }
 
-.challenge-item a {
+.challenge-container a {
     text-decoration: none;
     color: #33cfff;
+}
+
+.challenge-card {
+    height: auto;
+    background-color: #1f1f1f;
+    border: 5px solid #000000;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.challenge-card a {
+    text-decoration: none;
+    color: #33cfff;
+}
+
+.challenge-card h3 {
+    width: auto;
+    background-color: #00b135;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+}
+
+.challenge-card p {
+    margin-bottom: 15px;
 }
