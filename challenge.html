@@ -25,7 +25,6 @@
             </div>
 
             <div class='challenge-level'>
-                <h1>Desafio de nível 1</h1>
                 <article class='challenge-item'>
                     <h3><span class='challenge-item-section'>1.</span>Entendendo a diferença entre Back-end, Front-end e
                         Full-Stack</h3>
@@ -35,16 +34,20 @@
                             href="https://medium.com/portfoliorb/desenvolvedor-web-qual-a-diferen%C3%A7a-entre-front-end-back-end-e-full-stack-7555767f4da">esse
                             artigo</a> para entender melhor a diferença entre eles.</p>
                 </article>
-
+                <h1>Desafio de nível 1</h1>
                 <article class='challenge-item'>
-                    <h3><span class='challenge-item-section'>2.</span>Instalação Back-end</h3>
-                    <p>Podemos usar várias linguagens e Frameworks para criar um ambiente Back-end, neste caso, vamos
+                    <h3><span class='challenge-item-section'>1.</span>Instalação do Node.js e criação do ambiente
+                        Back-end</h3>
+                    <p style="margin-bottom: 25px;">Podemos usar várias linguagens e Frameworks para criar um ambiente
+                        Back-end, neste caso, vamos
                         utilizar o Nodejs que é escrito na linguagem JavaScript, certifique de <a
                             href="https://nodejs.org/en">instalar o Node.js</a> na sua mais atual versão.</p>
+                    <p>Depois de instalar, crie uma aplicação Nodejs, no próximo artigo você aprenderá um pouco sobre
+                        API's e criará as suas na sua aplicação.</p>
                 </article>
 
                 <article class='challenge-item'>
-                    <h3><span class='challenge-item-section'>3.</span>API REST e seus conceitos</h3>
+                    <h3><span class='challenge-item-section'>2.</span>API REST e seus conceitos</h3>
                     <p>As aplicações Web tem back-end e front-end, você sabe como fazemos para conectá-los? É com os
                         padrões de protocolo HTTP, na Diagonal usamos o <a
                             href="https://appmaster.io/pt/blog/outros-exemplos-de-api">RESTFull</a>.
@@ -53,7 +56,7 @@
                 </article>
 
                 <article class='challenge-item'>
-                    <h3><span class='challenge-item-section'>4.</span>Instalação do Fastify</h3>
+                    <h3><span class='challenge-item-section'>3.</span>Instalação do Fastify</h3>
                     <p style="margin-bottom: 25px;">
                         Fastify é um framework web para Node.js focado em desempenho e baixa sobrecarga. Ele é projetado
                         para ser rápido e eficiente, fornecendo uma estrutura mínima para o desenvolvimento de
@@ -63,6 +66,19 @@
                         para adicioná-los no banco de dados, Update para alterar um dado específico pelo id, e Delete
                         para apagar.</p>
                 </article>
+
+                <article class='challenge-item'>
+                    <h3><span class='challenge-item-section'>4.</span>Criação dos seus End-Points</h3>
+                    <p style="margin-bottom: 25px;">Agora que você entendeu o que é a arquitetura REST, vamos criar nossos primeiros end-ponts do projeto. Na nossa aplicação de gerenciamento de atividades, podemos criar os seguintes métodos usando Fastify:</p>
+                    <ul class='challenge-ul'>
+                        <li><span class='challenge-li-title challenge-li-get'>GET | Crie a rota "/todo":</span>Essa rota é responsável para fornecer todas as atividades cadastradas no banco de dados quando chamada</li>
+                        <li><span class='challenge-li-title challenge-li-post'>POST | Crie a rota "/todo":</span>Essa rota é responsável por cadastrar uma nova atividade no banco de dados</li>
+                        <li><span class='challenge-li-title challenge-li-put'>PUT | Crie a rota "/todo/:id":</span>Essa rota é responsável por alterar um item (atividade) específica no banco de dados, filtrada pelo seu id informado na rota.</li>
+                        <li><span class='challenge-li-title challenge-li-delete'>DELETE | Crie a rota "/todo/:id":</span>Essa rota é responsável por apagar um item (atividade) específica no banco de dados, filtrada pelo seu id informado na rota.</li>
+                    </ul>
+                </article>
+
+                <!-- <h1>Desafio de nível 2</h1> -->
             </div>
         </section>
         <section>

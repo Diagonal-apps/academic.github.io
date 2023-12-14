@@ -57,3 +57,32 @@
 .challenge-card p {
     margin-bottom: 15px;
 }
+
+.challenge-ul {
+    padding: 0 35px;
+}
+
+.challenge-ul li {
+    margin-bottom: 15px;
+}
+
+.challenge-li-title {
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.challenge-li-get {
+    color: #00b135;
+}
+
+.challenge-li-post {
+    color: #2e82ff;
+}
+
+.challenge-li-put {
+    color: #ffdf27;
+}
+
+.challenge-li-delete {
+    color: #ff4848;
+}
